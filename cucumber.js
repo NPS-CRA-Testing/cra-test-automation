@@ -8,7 +8,7 @@ require('fs-extra').remove('./test-results/videos');
 
 let options = [
     '--require-module ts-node/register',
-    '--require **/steps/*.ts',
+    '--require **/steps/**/*.ts',
     '--require ./src/support/config/hooks.ts',
     '--format summary',
     '--format rerun:@rerun.txt',

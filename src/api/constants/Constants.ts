@@ -45,6 +45,6 @@ export default class Constants{
     static readonly SUBTRACT = "subtract";
     static readonly MULTIPLY = "multiply";
     static readonly DIVIDE = "divide";
-    static readonly BOOK_JSON = "book.json";
+    static readonly BOOK_JSON = "test_to_be_deleted/book.json";
     static readonly SEARCH_BOOK = "Search Book";
 }

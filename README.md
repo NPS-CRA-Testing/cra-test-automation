@@ -95,3 +95,17 @@ Execution log will be present in the log file.
 ```sh
 test-results/logs/execution.log
 ```
+
+##### 5. Allure Report
+```sh
+npm install -D allure-playwright 
+```
+```sh
+npm install -D allure-commandline
+```
+```sh
+npx allure generate ./allure-results --clean
+```
+```sh
+npx allure open ./allure-report
+```
